@@ -1,0 +1,8 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "java -jar target/*.jar"
+healthcheckPath = "/api/v1/auth/health"
+healthcheckTimeout = 300
+restartPolicyType = "on_failure"

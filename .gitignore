@@ -34,4 +34,3 @@ build/
 
 ### Secrets & Local Storage ###
 uploads/
-src/main/resources/application.properties
