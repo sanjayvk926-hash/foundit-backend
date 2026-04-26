@@ -56,4 +56,9 @@ public class AuthController {
         }
         return ResponseEntity.status(401).body(BaseResponse.error("Not authenticated"));
     }
+
+    @GetMapping("/health")
+    public ResponseEntity<?> healthCheck() {
+        return ResponseEntity.ok("OK");
+    }
 }
