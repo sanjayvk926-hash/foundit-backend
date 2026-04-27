@@ -30,11 +30,3 @@ spring.mail.properties.mail.smtp.starttls.enable=true
 
 # Groq Vision API
 groq.api.key=${GROQ_API_KEY}
-
-# HuggingFace Inference API (optional — for higher rate limits)
-huggingface.api.key=${HUGGINGFACE_API_KEY:}
-
-# Cloudinary — for cloud image storage
-cloudinary.cloud-name=${CLOUDINARY_CLOUD_NAME}
-cloudinary.api-key=${CLOUDINARY_API_KEY}
-cloudinary.api-secret=${CLOUDINARY_API_SECRET}
